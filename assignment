@@ -1,0 +1,7 @@
+to calculate the number of data nodes 
+total storage requirement = 3+1 * 600 = 2400
+so n = 2400/7 = 343 data nodes needed
+
+
+2. yes the user can read the data. for example if a block can have 100 mb of data if first block is completed in writing then that 
+block is visible only the current writing block is not visible to the user for read during writing 500mb
